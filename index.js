@@ -4,6 +4,6 @@ const config = require('./src/config/config.js')
 // Syncing all the models at once.
 conn.sync({ force: false }).then(() => {
   server.listen(config.PORT, () => {
-    console.log('%s listening at 3001'); // eslint-disable-line no-console
+    console.log('%s listening at 5432'); // eslint-disable-line no-console
   });
 });
